@@ -1,0 +1,10 @@
+:PasteIndentOff	paste-indent.txt	/*:PasteIndentOff*
+:PasteIndentOn	paste-indent.txt	/*:PasteIndentOn*
+g:paste_indent_after_char	paste-indent.txt	/*g:paste_indent_after_char*
+g:paste_indent_before_char	paste-indent.txt	/*g:paste_indent_before_char*
+g:paste_indent_off	paste-indent.txt	/*g:paste_indent_off*
+paste-indent	paste-indent.txt	/*paste-indent*
+paste-indent.txt	paste-indent.txt	/*paste-indent.txt*
+pasteindent-commands	paste-indent.txt	/*pasteindent-commands*
+pasteindent-install	paste-indent.txt	/*pasteindent-install*
+pasteindent-options	paste-indent.txt	/*pasteindent-options*
