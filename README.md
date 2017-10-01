@@ -22,7 +22,7 @@ Without paste-indent:
 
     int main(int argc, char **argv) {
         if (argc > 1) {
-            printf("%s\n", argv[1]);
+        printf("%s\n", argv[1]);
         }
         return 0;
     }
@@ -50,6 +50,7 @@ Copy plugin/paste-indent.vim to ~/vim/plugin
 If you prefer to use pathogen, just run the following commands:
 
 cd ~/.vim
+
 git clone `https://github.com/ForTheReallys/paste-indent.git` bundle/paste-indent
 
 Options
@@ -62,11 +63,13 @@ Do nothing on startup
 ### The `g:paste_indent_after_char` option
 
 The character to paste after the cursor
+
 Default: 'p'
 
 ### The `g:paste_indent_before_char` option
 
 The character to paste before the cursor
+
 Default: 'P'
 
 Commands
