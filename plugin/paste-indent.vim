@@ -10,8 +10,8 @@ command PasteIndentOn call s:CreateMappings()
 command PasteIndentOff call s:DestroyMappings()
 
 function! s:DestroyMappings()
-    execute "nunmap " . s:after_char
-    execute "nunmap " . s:before_char
+    execute "silent! nunmap " . s:after_char
+    execute "silent! nunmap " . s:before_char
 endfunction
 
 function! s:CreateMappings()
